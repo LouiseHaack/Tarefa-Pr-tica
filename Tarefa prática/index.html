@@ -1,0 +1,28 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let Imovel=function(){
+            this.area="";
+            this.tipo="";
+            this.endereco="";
+        }
+
+        let imoveis=new Array();
+        do{
+            imovel=new Imovel()
+            imovel.area=prompt("Informe a área do imóvel:", "")
+            imovel.tipo=prompt("Informe o tipo do imóvel:", "")
+            imovel.endereço=prompt("Informe o endereço do imóvel: (Rua, Número, Bairro)", "")
+            imoveis.push(imoveis)
+
+            }while(confirm("Deseja Continuar?"))
+            console.log(imovel.tipo[0].toUpperCase()+ imovel.tipo.slice(1). toLowerCase()+ " com " +imovel.area+ " metros quadrados, localizada na "+imovel.endereço)
+
+    </script>
+</body>
+</html>
